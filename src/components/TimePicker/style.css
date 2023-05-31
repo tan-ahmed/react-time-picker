@@ -1,0 +1,11 @@
+.input-wrapper {
+  @apply relative inline-block;
+}
+
+.input-icon {
+  @apply h-6 w-6 p-1 absolute box-border top-1/2 right-2 transform -translate-y-1/2;
+}
+
+.input-field {
+  @apply ring-1 ring-slate-950 h-12 pl-4;
+}

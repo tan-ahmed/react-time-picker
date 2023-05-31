@@ -1,0 +1,40 @@
+.modal,
+.modal-overlay {
+  @apply fixed top-0 left-0 w-full h-full;
+}
+
+.modal {
+  @apply flex justify-center items-center z-10;
+}
+
+.modal-overlay {
+  @apply bg-black bg-opacity-50;
+  animation: fade-in 200ms both;
+}
+
+.modal-content {
+  @apply w-96 bg-white h-auto rounded-lg p-8 relative;
+  animation: fade-in 400ms 200ms both, slide-up 400ms 200ms both;
+}
+.modal-footer {
+  @apply flex justify-end items-center space-x-3;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(10%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-overlay,
+  .modal-content {
+    animation: none;
+  }
+}

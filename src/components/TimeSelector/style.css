@@ -1,0 +1,12 @@
+.selector-wrapper {
+  @apply flex h-52 w-full;
+}
+.selector-col {
+  @apply flex flex-col overflow-y-scroll w-1/3;
+}
+.selector-col button {
+  @apply p-2;
+}
+.selector-col button:hover {
+  @apply bg-gray-200;
+}
