@@ -11,6 +11,7 @@ function App() {
           You should be able to change the time directly by typing in the text
           field
         </li>
+        <li>Min/max time e.g. = min="09:00" max="18:00"</li>
         <li>
           There should be a way to cancel the "dirty changes" - common in form
           libraries
