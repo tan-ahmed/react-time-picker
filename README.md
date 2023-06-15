@@ -1,3 +1,3 @@
 # `Live Link`
 
-URL to see in the browser https://precious-syrniki-afb146.netlify.app/
+This was timeboxed to 2-3 hours. Very tricky to do in such a short amount of time.
